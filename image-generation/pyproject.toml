@@ -1,0 +1,18 @@
+[project]
+name = "image-generation"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "yusongod0303",email = "yusongod33@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "image_generation", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
